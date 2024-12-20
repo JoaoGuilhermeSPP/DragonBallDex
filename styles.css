@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Menu{
+    width: 100%;
+    background-color: rgb(218, 138, 18);
+    padding-top: 2rem;
+    position: fixed;
+    z-index: 1;
+}
+h1{
+ font-size: 10rem;
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ color: rgb(54, 80, 228);
+ text-align: center;
+}
+.bg{
+    height: 1208px;
+    width: 100%;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/84dc13b7-a2e7-4b45-83ec-311e72e82900/dcp0y48-a4df08be-fd68-4d6e-964e-a45d394cce31.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzg0ZGMxM2I3LWEyZTctNGI0NS04M2VjLTMxMWU3MmU4MjkwMFwvZGNwMHk0OC1hNGRmMDhiZS1mZDY4LTRkNmUtOTY0ZS1hNDVkMzk0Y2NlMzEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.90TR3goNjCQaF_OejaATp37Md_16lT9Cr_USollmaEg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(1px);
+}
+
+.bt{
+    display: inline;             
+    width: 100%;              
+    height: 10vh;           
+    margin: 0;               
+    padding: 0;  
+    flex: 1;                   
+    padding: 20px;  
+    color: rgb(53, 15, 224);
+    background-color: rgb(218, 138, 18);
+    border-radius: 7px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; ;
+    text-align: center;
+    font-size: 4rem;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    width: 80%;
+    gap: 20px;
+}
+.Pers{
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70rem;
+    width: 50rem;
+    border: 20px solid rgb(119, 114, 114);
+    background-size: cover; 
+    background-position: center; 
+    display: inline-block;
+    flex-direction: column;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(45, 90, 55);
+    font-size: 10rem;
+    
+}
+
+.Pers:hover {
+    filter: blur(10px);
+    opacity: 0.9;
+}
